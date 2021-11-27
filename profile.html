@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Profile</title>
+    <link rel="stylesheet" href="profile.css">
+    <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+    <script>
+        var btn = $('#btn');
+        var pic = $('#pic');
+
+            btn.click(function(){
+                pic.css('width','220px');
+                pic.show(3000);
+            })
+        
+    </script>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <nav class="nav_clear">
+                <ul class="ul_clear">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="profile.html" id="pos">PROFILE</a></li>
+                    <li><a href="portfolio.html">PORTFOLIO</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>   
+        </header>
+        <main>          
+            <section class="pro">
+                <h2 id="fst">ABOUT ME</h2>
+                <div class="box">
+                    <div class="basic">
+                        <h3>이수현은 3가지 가치관을 기반으로 하여<br>
+                            사용자의 관점에서 바라보고 디자인합니다.</h3>
+                        <div class="passion">
+                            <img src="images/pro_study.png">
+                            <p>Creative</p>
+                            <p>창의적이며 사용이 편안한<br> 디자인을 기획하고 연구합니다.</p>
+                        </div> <!--passion end-->
+                        <div class="commu">
+                            <img src="images/comm_pro.png">
+                            <p>Communication</p>
+                            <p>열린 자세, 적극적인 태도로 의견을<br> 수용하며 소통합니다.</p>
+                        </div> <!--commu end-->
+                        <div class="trendy">
+                            <img src="images/tre_pro.png">
+                            <p>Sensitivity</p>
+                            <p>감각적이며 시각적으로 우수한<br> 디자인을 추구합니다.</p>
+                        </div><!--trendy end-->
+                    </div> <!--basic end-->
+
+                    <div class="me">
+                        <hr>
+                        <h3>Profile</h3>
+                        <div class="prf">
+                            <button type="button" id="btn">Click!</button>
+                            <div class="show"></div>
+                            <strong><p>Name<span>이수현 / Lee Su-Hyeon</span></p></strong>
+                            <strong><p>Birth <span>1995.09.12</span></p></strong>
+                            <strong><p>tel<span>+82 10-6659-5809</span></p></strong>
+                            <strong><p>e-mail<span>shleex959@naver.com</span></p></strong>
+                            <img src="images/about_pic.png" id="pic">
+                        </div> <!--prf end-->
+                    </div> <!--me end-->
+
+                    <div class="edu">
+                        <h3>Education</h3>
+                        <div class="container">
+                            <div class="timeline">
+                              <ul>
+                                <li>
+                                  <div class="timeline-content">
+                                    <h2>2021</h2>
+                                    <p>그린컴퓨터아카데미 디지털디자인 플립드러닝<br>웹디자인&웹퍼블리셔 디지털 실무 양성과정 수료</p>
+                                  </div>
+                                </li>
+                                <li>
+                                  <div class="timeline-content">
+                                    <h2>2019</h2>
+                                    <p>배화여자대학교 스마트IT과 졸업</p>
+                                  </div>
+                                </li>
+                                <li>
+                                  <div class="timeline-content">
+                                    <h2>2014</h2>
+                                    <p>우성고등학교 졸업</p>
+                                  </div>
+                                </li>
+                              </ul>
+                              </div>
+                          </div> <!--container end-->
+                        </div> <!--edu end-->
+                        
+                        <div class="skl">
+                            <h3>Skill</h3>
+                            <div class="skill">
+                                <div class="skill-tool">
+                                    <h2>Design</h2>
+                                    <img src="images/photoshop.png">
+                                    <img src="images/illustrator.png">
+                                </div>
+                                <div class="skill-tool">
+                                    <h2>Programming</h2>
+                                    <img src="images/html.png">
+                                    <img src="images/css-3.png">
+                                    <img src="images/js.png">
+                                </div>
+                            </div>
+                        </div>
+                </div><!--box end-->
+            </section> <!--pro end-->
+        </main>
+        <footer>
+            <p>Copyrights &copy; LEESUHYEON&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;All rights reserved.</p>
+        </footer>
+     </div> <!-- wrapper end -->
+</body>
+</html>

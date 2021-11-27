@@ -1,0 +1,282 @@
+@import url(index.html);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{text-decoration: none;}
+body{font-family: 'Montserrat', sans-serif;}
+.wrap{
+    position: relative;
+    margin: 0 auto;  
+    width: 700px;
+}
+.wrap h1{
+    position: absolute;
+    top: 0; left: 0;
+}
+.header{
+    height: 40px;
+    background-color:rgb(13, 52, 90);
+}
+.header div{
+    float: right;
+    padding-top: 7px;
+}
+.header div a::after{
+    content: "|";
+    color: #fff;
+    padding: 0 10px;
+    height: 20px; line-height: 20px;
+    vertical-align: top;
+}
+.header a:last-of-type::after{
+    content: "";
+}
+
+.main{
+    background: url(img/women-main.png);
+    height: 380px;
+    padding-top: 90px;
+    padding-left: 30px;
+}
+.main h2{ 
+    font-size: 3.2rem;
+    line-height: 1;
+}
+.main h2 span{font-size: 1.8rem; color: #232323;}
+.main p{ 
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.main address{
+    font-size: 13px;
+    background-color: #fff;
+    border: 1px dashed #232323;
+    width: 200px; height: 30px;
+    margin: 13px 0 0 -2px;
+    line-height: 30px;
+    text-align: center;
+}
+/*news*/
+.news{
+    padding:30px 0 65px;
+    color: #204456;
+    text-align: center;
+    font-size: 1rem;
+}
+.news h2{
+    font-weight: 700;
+    margin: 20px 0 50px 0;
+    color: #204456;
+}
+.news> div{
+    display: inline-block;
+    margin-right: 30px;
+}
+.news>div:first-of-type:hover{
+    transform: scale(1.2);
+}
+.news .second:hover{
+    transform: scale(1.2);
+}
+.news .last:hover{
+    transform: scale(1.2);
+}
+
+.news h3{
+    padding-top: 50px;
+    margin-bottom: 13px;
+    background: url(img/flife-icon-delivery.png) no-repeat top center;
+}
+.news .second h3{
+    background-image: url(img/flife-icon-cash.png);
+}
+.news .last h3{
+    background-image: url(img/flife-icon-phone.png);
+}
+.news p{font-size: 13px; line-height: 1;}
+
+/*nike*/
+.nike h3{
+    position: absolute;
+    top:-9999px; left: -9999px;
+}
+.nike>a{
+    position: relative;
+    display: block;
+    height: 300px;
+}
+.nike .women{
+    padding: 103px 30px 0;
+    background: url(img/women01.jpg);
+    background-size: 700px;
+    color: #fff;
+}
+.nike .men{
+    padding:90px 42px 0;
+    background:url(img/men01.jpg);
+    background-size: 700px;
+    color: #1a3644
+}
+.nike .men img{
+    float: right;
+}
+.nike em{
+    position: absolute; top:50%; right:50px;
+    width:170px; height: 170px; padding:40px 0;
+    margin-top: -88px; border: 3px solid #fff;
+    border-radius: 50%; font-style: normal;
+    text-align: center;
+}
+.nike .men em{
+    left: 42px;
+    border-color: #1a3644;
+}
+.nike a b{
+    display: block;
+    font-size: 3rem;
+}
+.nike a span{
+    line-height: 1.2;
+    font-size: 2rem;
+}
+.nike div::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.nike div a{
+    float: left;
+    position: relative;
+    width: 233px; height: 250px;
+    background: url(img/img-women-02.jpg);
+    background-size: 100%;
+    
+}
+.nike div a.second{
+    background-image: url(img/img-men-03.jpg);
+}
+.nike div a.last{
+    background-image: url(img/img-kids-03.jpg);
+}
+.nike div a::before{
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+}
+.nike div a:hover::before{
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.nike div a span{
+    font-size: 1.3rem;
+    width: 100px; height: 100px;
+    line-height: 100px; border-radius: 50%;
+    background: #ebc156;
+    color: #fff; font-weight: 700;
+    text-align: center;
+    position: absolute; top: 50%; left:50%;
+    margin: -55px 0 0 -55px;
+}
+/* nike2 */
+.nike2 h3{
+    position: absolute;
+    top: -9999px; left: -9999px;
+}
+.nike2{
+    display: block;
+    width:699px; height:800px;
+    padding: 50px 0 0 40px;
+    background: url(img/body2.jpg) no-repeat;
+    font-style: normal;
+}
+.nike2 a{
+    float: left;
+    margin-bottom: 28px;
+    color: #fff;
+}
+.nike2 a img, .nike2 a div{
+    float: left;
+    width: 200px; height: 200px;
+}
+
+.nike2 a div{
+    padding-top: 26px;
+    background: #46808a;
+    text-align: center;
+}
+.nike2 .last div{
+    padding-bottom: 10px;
+}
+.nike2 p{
+    margin-bottom: 23px;
+    font-size: 1.5rem;
+    line-height: 1.2;
+}
+.nike2 em{
+    font-style: normal;
+}
+.nike2 b{
+    display: block;
+    font-size: 50px;
+    line-height: 1;
+}
+.nike2 span{
+    font-size: 20px;
+}
+.nike2 a:hover b{
+    color:red;
+}
+/*footer*/
+.footer{
+    position: relative;
+    padding-top: 40px;
+    font-size: 14px; line-height: 1.2;
+}
+.footer > img{
+    position: absolute;
+    left: 30px; top: -30px;
+}
+.footer .ftimg{
+    display: block;
+    margin :20px 10px 50px 0;
+    text-align: center;
+}
+.footer .ftimg a{
+    margin-right: 41px;
+}
+.footer .ftimg a.last{
+    margin-right: 0;
+}
+.footer a{
+    color: #505050;
+}
+.footer a:hover, .footer a:focus{
+    color: #000;
+}
+.footer .left{
+    float: left;
+    margin:0 70px 50px 0;
+}
+.footer .left b{
+    font-size: 14px;
+}
+.footer .right{
+    float: right;
+    text-align: right;
+}
+.footer .bottom{
+    display: block;
+    clear: both;
+    margin-bottom: 37px;
+    text-align: center;
+}
+.footer .bottom a::after{
+    content: "|";
+    margin: 0 18px;
+}
+.footer .bottom a.last::after{
+     content: none;
+}
