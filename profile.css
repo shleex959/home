@@ -4,25 +4,53 @@
 
 * {margin: 0; padding: 0; box-sizing: border-box;}
 html {font-size: 0.7em; }
-body {font-family: Gowun Dodum, sans-serif, 'malgeunGothic'; overflow-x: hidden; line-height: 1; height: 100vh; }
+body {
+  font-family: Gowun Dodum, sans-serif, 'malgeunGothic'; 
+  overflow-x: hidden; 
+  line-height: 1; 
+  height: 100vh;
+  background-size: cover;
+  background: url(images/bg_pro.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
 .wrapper {width: 100%; margin: 0 auto;}
 
 /* nav */
-nav {height: 72px;}
-nav ul {list-style: none;}
+nav {
+	height: 72px; 
+	width: 100%;
+	z-index: 2;}
+li {list-style: none;}
 a {text-decoration: none;}
-nav ul li {float: left; width: 25%; 
-  text-align: center; cursor: pointer;
-  font-size: 1.9em; font-weight: 800; line-height: 3.5;
-  background-color: #f1e3b2;
+nav ul li {
+	float: left;
+	width: 25%; 
+  text-align: center;
+	cursor: pointer;
+  font-size: 1.7em;
+  letter-spacing: 0.1em; 
+	font-weight: 500; 
+	line-height: 3.5;
 }
-nav a {color: #000326;}
-nav #pos {color: #656868;}
-nav a:hover {color: #414fa7;}
+nav a {color: #1c3f3a;}
+nav a:hover {color: rgb(177, 177, 177);}
+.clear::after {content: ""; display: block; clear: both;}
+.fixbar {position: fixed; top: 0; left: 0;}
+.fixbar li {
+	background: #ede6df;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+  transition: all 0.3s;
+  border-bottom: 1px solid #c5c5ca;
+}
+.fixbar li a {color: #000326;}
+.fixbar li a:hover { color: #94af76;}
 .clear::after {content: ""; display: block; clear: both;}
 
 /*main*/
-.pro {height: 2100px; background: url(images/bg_pro.png) top center; background-size: cover; text-align: center;}
+.pro {height: 2100px;text-align: center;}
 #fst{ text-align: center; padding-top: 50px; font-size: 1.7em; color: #1c3f3a;animation: slidedown 1s; letter-spacing: 0.3em;}
 
 .basic > h3 {text-align: center; margin: 50px 0 0 0; font-size: 1.3em; line-height: 1.5em; color: #858588; animation: slidedown 1s; }
@@ -167,7 +195,7 @@ nav a:hover {color: #414fa7;}
   }
 
 
-.skill {width: 1300px; height: 300px; background: #1c3f3a; margin-left: 300px; position: absolute; right: 0;} 
+.skill {width: 1200px; height: 300px; background: #1c3f3a; margin-left: 300px; position: absolute; right: 0;} 
 .skill div {display: inline-block; margin: 50px;}
 .skill h2, .skill p {color: #e5e3d4; text-transform: uppercase;}
 .skill h2 {padding-top: 26px; letter-spacing: 0.3em;}

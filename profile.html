@@ -8,14 +8,27 @@
     <link rel="stylesheet" href="profile.css">
     <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
     <script>
-        var btn = $('#btn');
-        var pic = $('#pic');
+        // var btn = $('#btn');
+        // var pic = $('#pic');
 
-            btn.click(function(){
-                pic.css('width','220px');
-                pic.show(3000);
-            })
-        
+        //     btn.click(function(){
+        //         pic.css('width','220px');
+        //         pic.show(3000);
+        //     })
+        $(document).ready(function(){
+            var nvs = $(".nav_clear");
+            var loc = $(".nav_clear").offset();
+
+            $(window).scroll(function(){
+                if($(window).scrollTop() > loc.top){
+                    nvs.addClass('fixbar');
+                }
+                else{
+                    nvs.removeClass('fixbar');
+                }
+            });
+        });
+
     </script>
 </head>
 <body>

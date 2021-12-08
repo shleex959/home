@@ -7,6 +7,7 @@
 	<title>HOME</title>
     <link rel="stylesheet" href="index.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/jquery.easing.1.3.min.js"></script>
     <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
     <script>
         setTimeout(function(){
@@ -29,7 +30,22 @@
             else{ 
                 clearInterval(tyInt)}
             }
-        },2000);   
+        },1000);
+
+       $(document).ready(function(){
+            var nvs = $(".nav_clear");
+            var loc = $(".nav_clear").offset();
+
+            $(window).scroll(function(){
+                if($(window).scrollTop() > loc.top){
+                    nvs.addClass('fixbar');
+                }
+                else{
+                    nvs.removeClass('fixbar');
+                }
+            });
+        });
+
     </script>
     </head>
     <body>
