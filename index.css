@@ -10,7 +10,7 @@
 }
 * {margin: 0; padding: 0; box-sizing: border-box;}
 html {font-size: 0.7em;}
-body {font-family: Gowun Dodum, sans-serif, 'malgeunGothic'; overflow-x: hidden; line-height: 1; }
+body {font-family: Gowun Dodum, sans-serif, 'malgeunGothic'; overflow-x: hidden; line-height: 1;}
 .wrapper {width: 100%; margin: 0 auto;}
 
 /* nav */
