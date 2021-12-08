@@ -87,7 +87,7 @@ h2 { text-align: center; padding-top: 80px; font-size: 2em; font-weight: 500; le
 
 .box .roll:hover {transform: scale(1.1);}
 .box .roll:nth-of-type(1){background-image:url(images/port_movie.png); background-repeat:no-repeat; background-size: cover; }
-.box .roll:nth-of-type(2){background-image:url(images/port_tour.png); background-repeat:no-repeat; background-size: cover; }
+.box .roll:nth-of-type(2){background-image:url(images/tour_page_2.png); background-repeat:no-repeat; background-size: cover; }
 .box .roll:nth-of-type(3){background:url(images/port_car.png); background-repeat:no-repeat; background-size: cover;}
 .box .roll:nth-of-type(4){background:url(images/port_music.PNG); background-repeat:no-repeat; background-size: cover;}
 .box .roll:nth-of-type(5){background:url(images/port_fas.PNG); background-repeat:no-repeat; background-size: cover;}
