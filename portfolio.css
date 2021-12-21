@@ -87,12 +87,12 @@ h2 { text-align: center; padding-top: 80px; font-size: 2em; font-weight: 500; le
 
 
 .box .roll:hover {transform: scale(1.1);}
-.box .roll:nth-of-type(1){background-image:url(images/port_movie.png); background-repeat:no-repeat; background-size: cover; }
-.box .roll:nth-of-type(2){background-image:url(images/tour_page_2.png); background-repeat:no-repeat; background-size: cover; }
-.box .roll:nth-of-type(3){background:url(images/port_car.png); background-repeat:no-repeat; background-size: cover;}
-.box .roll:nth-of-type(4){background:url(images/port_music.PNG); background-repeat:no-repeat; background-size: cover;}
-.box .roll:nth-of-type(5){background:url(images/port_fas.PNG); background-repeat:no-repeat; background-size: cover;}
-.box .roll:nth-of-type(6){background:url(images/port_car_mob.png); background-repeat:no-repeat; background-size: cover;}
+.box .roll:nth-of-type(6){background-image:url(images/port_movie.png); background-repeat:no-repeat; background-size: cover; }
+.box .roll:nth-of-type(3){background-image:url(images/tour_page_2.png); background-repeat:no-repeat; background-size: cover; }
+.box .roll:nth-of-type(4){background:url(images/port_car.png); background-repeat:no-repeat; background-size: cover;}
+.box .roll:nth-of-type(1){background:url(images/port_music.PNG); background-repeat:no-repeat; background-size: cover;}
+.box .roll:nth-of-type(2){background:url(images/port_fas.PNG); background-repeat:no-repeat; background-size: cover;}
+.box .roll:nth-of-type(5){background:url(images/port_car_mob.png); background-repeat:no-repeat; background-size: cover;}
 .box div img {width: 150px; height: 170px; align-items: center;}
 
 .box .roll a span {position:absolute; top: 50%; left: 50%; color: #e4e2d3; width: 120px; height: 41px; line-height: 41px; margin: -35px 0 0 -65px;  font-size: 2.5em; text-align: center; font-weight:500; text-transform: uppercase; letter-spacing: 0.1em;}
