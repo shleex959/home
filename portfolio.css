@@ -74,16 +74,16 @@ h2 { text-align: center; padding-top: 80px; font-size: 2em; font-weight: 500; le
   background-color: #e4e2d3; 
   position: relative;
 }
-.item:nth-child(9){background: url(images/car_banner.png) no-repeat;  background-size: cover; width: 800px;background-size:100%;}
-.item:nth-child(10){background: url(images/car_event.png) no-repeat;  background-size: cover;width: 880px;  background-size:100%;}
+.item:nth-child(4){background: url(images/car_banner.png) no-repeat;  background-size: cover; width: 800px;background-size:100%;}
+.item:nth-child(5){background: url(images/car_event.png) no-repeat;  background-size: cover;width: 880px;  background-size:100%;}
 .item:nth-child(1){background: url(images/poster.png) no-repeat;  background-size: cover; width: 430px; background-size:100% 100%;}
 .item:nth-child(2){background: url(images/diamond.png) no-repeat;  background-size: cover; width: 430px; background-size:100% 100%;}
 .item:nth-child(3){background: url(images/tour_ban.png) no-repeat;  background-size: cover; background-size:100% 100%;}
-.item:nth-child(4){background: url(images/chicago.png) no-repeat;  background-size: cover;background-size:100% 100%;}
-.item:nth-child(5){background: url(images/airplane.png) no-repeat;  background-size: cover;background-size:100% 100%;}
+.item:nth-child(6){background: url(images/banner_box.png) no-repeat;  background-size: cover;width: 800px;background-size:100%;}
+/* .item:nth-child(5){background: url(images/airplane.png) no-repeat;  background-size: cover;background-size:100% 100%;}
 .item:nth-child(6){background: url(images/crack.png) no-repeat;background-size: cover; background-size:100% 100%;}
 .item:nth-child(7){background: url(images/frame.png) no-repeat;  background-size: cover;background-size:100% 100%;}
-.item:nth-child(8){background: url(images/light_2.png) no-repeat;  background-size: cover;background-size:100% 100%;}
+.item:nth-child(8){background: url(images/light_2.png) no-repeat;  background-size: cover;background-size:100% 100%;} */
 
 
 .box .roll:hover {transform: scale(1.1);}
