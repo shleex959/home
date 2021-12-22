@@ -93,7 +93,7 @@ header nav a:hover{
 /* 좌 상단 문단 */
 header .top{
     float: left;
-    width: 430px; margin: 120px 0 0 20px;
+    width: 500px; margin: 120px 0 0 20px;
     color: #fff;
     text-align: center;
 }
